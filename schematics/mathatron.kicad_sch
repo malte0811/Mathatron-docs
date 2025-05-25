@@ -1,0 +1,266 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "930449e3-5c89-4670-88fc-7eae8a9212fd")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 78.74 104.14)
+		(size 13.97 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "01706e60-ec11-4817-83b5-6e31b72f7189")
+		(property "Sheetname" "PSU"
+			(at 78.74 103.4284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 78.74 121.2346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "mathatron"
+				(path "/930449e3-5c89-4670-88fc-7eae8a9212fd"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 82.55 35.56)
+		(size 12.7 8.89)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "134f7653-b4ab-4a8a-bffa-92e1f75f7a6d")
+		(property "Sheetname" "Examples"
+			(at 82.55 34.8484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "logic-example.kicad_sch"
+			(at 82.55 45.0346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "mathatron"
+				(path "/930449e3-5c89-4670-88fc-7eae8a9212fd"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 119.38 104.14)
+		(size 12.7 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2761eb76-6968-482e-8787-72663d92f03a")
+		(property "Sheetname" "Keyboard"
+			(at 119.38 103.4284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "keyboard.kicad_sch"
+			(at 119.38 119.9646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "mathatron"
+				(path "/930449e3-5c89-4670-88fc-7eae8a9212fd"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 60.96 66.04)
+		(size 17.78 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2e921b1a-b049-426f-b7e8-45caeebf6a6b")
+		(property "Sheetname" "Core driver"
+			(at 60.96 65.3284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "core_driver.kicad_sch"
+			(at 60.96 84.4046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "mathatron"
+				(path "/930449e3-5c89-4670-88fc-7eae8a9212fd"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 119.38 69.85)
+		(size 12.7 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b2a50c0c-79ec-4e06-9be9-733c45dbaa89")
+		(property "Sheetname" "Mixed board"
+			(at 119.38 69.1384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mixed.kicad_sch"
+			(at 119.38 84.4046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "mathatron"
+				(path "/930449e3-5c89-4670-88fc-7eae8a9212fd"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 68.58 149.86)
+		(size 12.7 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "df4c861a-2ed9-410f-a0e3-f2104ad4c7b4")
+		(property "Sheetname" "Printer"
+			(at 68.58 149.1484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "printer.kicad_sch"
+			(at 68.58 164.4146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "mathatron"
+				(path "/930449e3-5c89-4670-88fc-7eae8a9212fd"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

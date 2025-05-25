@@ -1,0 +1,15 @@
+*Working combinations
+*.param Cdot=92n
+*.param Cred=22n
+*.param Cdot=60n
+*.param Cred=15n
+*.param Cdot=30n
+*.param Cred=10n
+
+.param Cdot=30n
+.param Cred=10n
+.param Elko=10u
+.param Corange=100n
+.model mathatron_pnp PNP(IS=1.423u BF=307.0 BR=20.27 NF=1.022 NR=1.025 VAF=8.167 VAR=14.84 IKF=43.82m IKR=611.7m ISE=30.54n ISC=213.5n NE=1.316 NC=1.258 RB=32.83 RE=968.7m RC=989.9u)
+V1 vplus 0 dc 10
+V2 vneg 0 dc -10

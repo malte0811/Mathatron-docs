@@ -1,0 +1,209 @@
+.title logic segment
+.include constants.spice
+QBit0 bit0 baseBit0 0 0 mathatron_pnp
+RbaseBit0 vplus baseBit0 100k
+RcollBit0 vneg bit0 2.2k
+QNbit0 nbit0 baseNbit0 0 0 mathatron_pnp
+RbaseNbit0 vplus baseNbit0 100k
+RcollNbit0 vneg nbit0 2.2k
+QProp0 prop0 baseProp0 0 0 mathatron_pnp
+RbaseProp0 vplus baseProp0 100k
+RcollProp0 vneg prop0 2.2k
+QBit1 bit1 baseBit1 0 0 mathatron_pnp
+RbaseBit1 vplus baseBit1 100k
+RcollBit1 vneg bit1 2.2k
+QNbit1 nbit1 baseNbit1 0 0 mathatron_pnp
+RbaseNbit1 vplus baseNbit1 100k
+RcollNbit1 vneg nbit1 2.2k
+QProp1 prop1 baseProp1 0 0 mathatron_pnp
+RbaseProp1 vplus baseProp1 100k
+RcollProp1 vneg prop1 2.2k
+QBit2 bit2 baseBit2 0 0 mathatron_pnp
+RbaseBit2 vplus baseBit2 100k
+RcollBit2 vneg bit2 2.2k
+QNbit2 nbit2 baseNbit2 0 0 mathatron_pnp
+RbaseNbit2 vplus baseNbit2 100k
+RcollNbit2 vneg nbit2 2.2k
+QProp2 prop2 baseProp2 0 0 mathatron_pnp
+RbaseProp2 vplus baseProp2 100k
+RcollProp2 vneg prop2 2.2k
+QBit3 bit3 baseBit3 0 0 mathatron_pnp
+RbaseBit3 vplus baseBit3 100k
+RcollBit3 vneg bit3 2.2k
+QNbit3 nbit3 baseNbit3 0 0 mathatron_pnp
+RbaseNbit3 vplus baseNbit3 100k
+RcollNbit3 vneg nbit3 2.2k
+QProp3 prop3 baseProp3 0 0 mathatron_pnp
+RbaseProp3 vplus baseProp3 100k
+RcollProp3 vneg prop3 2.2k
+QBit4 bit4 baseBit4 0 0 mathatron_pnp
+RbaseBit4 vplus baseBit4 100k
+RcollBit4 vneg bit4 2.2k
+QNbit4 nbit4 baseNbit4 0 0 mathatron_pnp
+RbaseNbit4 vplus baseNbit4 100k
+RcollNbit4 vneg nbit4 2.2k
+Q15 collector15 base15 0 0 mathatron_pnp
+Rbase15 vplus base15 100k
+Rcoll15 vneg collector15 2.2k
+Q16 collector16 base16 0 0 mathatron_pnp
+Rbase16 vplus base16 100k
+Rcoll16 vneg collector16 2.2k
+Q17 collector17 base17 0 0 mathatron_pnp
+Rbase17 vplus base17 100k
+Rcoll17 vneg collector17 2.2k
+Q18 collector18 base18 0 0 mathatron_pnp
+Rbase18 vplus base18 100k
+Rcoll18 vneg collector18 2.2k
+QNCompAll nCompAll baseNCompAll 0 0 mathatron_pnp
+RbaseNCompAll vplus baseNCompAll 100k
+RcollNCompAll vneg nCompAll 2.2k
+Q20 collector20 base20 0 0 mathatron_pnp
+Rbase20 vplus base20 100k
+Rcoll20 vneg collector20 2.2k
+QReset0 reset0 baseReset0 0 0 mathatron_pnp
+RbaseReset0 vplus baseReset0 100k
+RcollReset0 vneg reset0 2.2k
+QSet0 set0 baseSet0 0 0 mathatron_pnp
+RbaseSet0 vplus baseSet0 100k
+RcollSet0 vneg set0 2.2k
+Q23 collector23 base23 0 0 mathatron_pnp
+Rbase23 vplus base23 100k
+Rcoll23 vneg collector23 2.2k
+Q24 collector24 base24 0 0 mathatron_pnp
+Rbase24 vplus base24 100k
+Rcoll24 vneg collector24 2.2k
+Q25 collector25 base25 0 0 mathatron_pnp
+Rbase25 vplus base25 100k
+Rcoll25 vneg collector25 2.2k
+Q26 collector26 base26 0 0 mathatron_pnp
+Rbase26 vplus base26 100k
+Rcoll26 vneg collector26 2.2k
+QCompBit0 compBit0 baseCompBit0 0 0 mathatron_pnp
+RbaseCompBit0 vplus baseCompBit0 100k
+RcollCompBit0 vneg compBit0 2.2k
+QCompNBit0 compNBit0 baseCompNBit0 0 0 mathatron_pnp
+RbaseCompNBit0 vplus baseCompNBit0 100k
+RcollCompNBit0 vneg compNBit0 2.2k
+QCompNBit1 compNBit1 baseCompNBit1 0 0 mathatron_pnp
+RbaseCompNBit1 vplus baseCompNBit1 100k
+RcollCompNBit1 vneg compNBit1 2.2k
+QCompBit1 compBit1 baseCompBit1 0 0 mathatron_pnp
+RbaseCompBit1 vplus baseCompBit1 100k
+RcollCompBit1 vneg compBit1 2.2k
+QCompNBit2 compNBit2 baseCompNBit2 0 0 mathatron_pnp
+RbaseCompNBit2 vplus baseCompNBit2 100k
+RcollCompNBit2 vneg compNBit2 2.2k
+QCompBit2 compBit2 baseCompBit2 0 0 mathatron_pnp
+RbaseCompBit2 vplus baseCompBit2 100k
+RcollCompBit2 vneg compBit2 2.2k
+QCompNBit3 compNBit3 baseCompNBit3 0 0 mathatron_pnp
+RbaseCompNBit3 vplus baseCompNBit3 100k
+RcollCompNBit3 vneg compNBit3 2.2k
+QCompBit3 compBit3 baseCompBit3 0 0 mathatron_pnp
+RbaseCompBit3 vplus baseCompBit3 100k
+RcollCompBit3 vneg compBit3 2.2k
+QCompNBit4 compNBit4 baseCompNBit4 0 0 mathatron_pnp
+RbaseCompNBit4 vplus baseCompNBit4 100k
+RcollCompNBit4 vneg compNBit4 2.2k
+QCompBit4 compBit4 baseCompBit4 0 0 mathatron_pnp
+RbaseCompBit4 vplus baseCompBit4 100k
+RcollCompBit4 vneg compBit4 2.2k
+QNComp0To2 nComp0To2 baseNComp0To2 0 0 mathatron_pnp
+RbaseNComp0To2 vplus baseNComp0To2 100k
+RcollNComp0To2 vneg nComp0To2 2.2k
+QComp0To2 comp0To2 baseComp0To2 0 0 mathatron_pnp
+RbaseComp0To2 vplus baseComp0To2 100k
+RcollComp0To2 vneg comp0To2 2.2k
+QNSensor nSensor baseNSensor 0 0 mathatron_pnp
+RbaseNSensor vplus baseNSensor 100k
+RcollNSensor vneg nSensor 2.2k
+QReset reset baseReset 0 0 mathatron_pnp
+RbaseReset vplus baseReset 100k
+RcollReset vneg reset 2.2k
+Rdot1.1 base25 bit0 12k
+Rdot1.2 baseCompBit0 bit0 12k
+Rdot1.3 baseNbit0 bit0 12k
+Rdot1.4 baseReset0 bit0 12k
+Rdot1.5 base23 bit0 12k
+Rdot2.1 baseCompNBit0 nbit0 12k
+Rdot2.2 baseBit0 nbit0 12k
+Rdot2.3 baseSet0 nbit0 12k
+Rdot2.4 base24 nbit0 12k
+Rdot3.1 baseNbit1 prop0 12k
+Rdot3.2 baseBit1 prop0 12k
+Rdot4.4 baseNbit1 bit1 12k
+Rdot4.5 baseCompBit1 bit1 12k
+Rdot5.3 baseBit1 nbit1 12k
+Rdot5.4 baseCompNBit1 nbit1 12k
+Rdot5.5 base25 nbit1 12k
+Rdot6.4 baseNbit2 prop1 12k
+Rdot6.5 baseBit2 prop1 12k
+Rdot7.2 baseNbit2 bit2 12k
+Rdot7.3 baseCompBit2 bit2 12k
+Rdot8.3 baseBit2 nbit2 12k
+Rdot8.4 base25 nbit2 12k
+Rdot8.5 baseCompNBit2 nbit2 12k
+Rdot9.4 baseNbit3 prop2 12k
+Rdot9.5 baseBit3 prop2 12k
+Rdot10.2 base25 bit3 12k
+Rdot10.3 baseNbit3 bit3 12k
+Rdot10.4 baseCompBit3 bit3 12k
+Rdot11.3 baseBit3 nbit3 12k
+Rdot11.4 baseCompNBit3 nbit3 12k
+Rdot12.4 baseNbit4 prop3 12k
+Rdot12.5 baseBit4 prop3 12k
+Rdot13.2 baseCompBit4 bit4 12k
+Rdot13.3 baseNbit4 bit4 12k
+Rdot13.4 base25 bit4 12k
+Rdot14.3 baseBit4 nbit4 12k
+Rdot14.4 baseCompNBit4 nbit4 12k
+Rdot15.1 base16 collector15 12k
+Rdot18.1 base25 collector18 12k
+Rdot18.2 baseReset0 collector18 12k
+Rdot18.3 baseSet0 collector18 12k
+Rdot18.4 base15 collector18 12k
+Rdot19.2 base15 nCompAll 12k
+Rdot21.1 base24 reset0 12k
+Rdot21.2 base23 reset0 12k
+Rdot21.5 baseBit0 island21 12k
+Rdot22.1 baseNbit0 island22 12k
+Rdot22.4 base23 set0 12k
+Rdot22.5 base24 set0 12k
+Rdot26.3 baseNbit4 collector26 12k
+Rdot26.4 baseBit2 collector26 12k
+Rdot26.5 baseNbit3 collector26 12k
+Rdot27.1 baseNComp0To2 compBit0 12k
+Rdot28.1 baseNComp0To2 compNBit0 12k
+Rdot29.1 baseNComp0To2 compNBit1 12k
+Rdot30.1 baseNComp0To2 compBit1 12k
+Rdot31.1 baseNComp0To2 compNBit2 12k
+Rdot32.1 baseNComp0To2 compBit2 12k
+Rdot33.1 baseNCompAll compNBit3 12k
+Rdot34.1 baseNCompAll compBit3 12k
+Rdot35.1 baseNCompAll compNBit4 12k
+Rdot36.1 baseNCompAll compBit4 12k
+Rdot37.1 baseComp0To2 nComp0To2 12k
+Rdot38.5 baseNCompAll 0 12k
+Rdot39.1 baseReset nSensor 12k
+Rdot40.2 baseBit2 reset 12k
+Rdot40.3 baseNbit3 reset 12k
+Rdot40.4 baseBit1 reset 12k
+Rdot40.5 baseNbit4 reset 12k
+C0 baseBit1 nbit1 {Cdot}
+C1 baseNbit1 bit1 {Cdot}
+C2 baseBit2 nbit2 {Cdot}
+C3 bit2 baseNbit2 {Cdot}
+C4 bit3 baseNbit3 {Cdot}
+C5 baseBit3 nbit3 {Cdot}
+C6 baseBit4 nbit4 {Cdot}
+C7 bit4 baseNbit4 {Cdot}
+C8 nbit0 baseProp0 {Cred}
+C9 nbit1 baseProp1 {Cred}
+C10 nbit2 baseProp2 {Cred}
+C11 nbit3 baseProp3 {Cred}
+C12 reset0 island21 {Cred}
+C13 island22 set0 {Cred}
+C14 0 baseNSensor {Cred}
+C15 collector17 base18 {Elko}
+C16 collector25 base26 {Corange}
+.end

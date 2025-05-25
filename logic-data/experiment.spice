@@ -1,0 +1,27 @@
+.include column-f.spice
+
+.tran 100u 100m uic
+Vsensor baseNSensor 0 dc 0 PULSE (0 -1 0 100u 100u 1.5m 1)
+
+* Rise time needs to be slow, otherwise the cap coupling will flip bit0 back!
+Vset0 set0 0 dc 0 PULSE (0 -8 5m 100u 500u 1m 5m)
+Vreset0 reset0 0 dc 0 PULSE (0 -8 7.5m 100u 500u 1m 5m)
+
+Vtemp collector18 0 dc 0
+
+* Not observed in circuit, but should be there
+Rhypo0 baseProp0 vneg 12k
+Rhypo1 baseProp1 vneg 12k
+Rhypo2 baseProp2 vneg 12k
+Rhypo3 baseProp3 vneg 12k
+Rhypo4 baseProp4 vneg 12k
+Rhypo5 base26 vneg 12k
+
+.control
+tran 10u 100m
+
+plot bit3 bit4
+plot bit2 bit3
+plot bit1 bit2
+plot bit0 bit1
+.endc
